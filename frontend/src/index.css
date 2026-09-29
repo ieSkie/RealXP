@@ -1,0 +1,28 @@
+:root {
+  --bg: #2a3042;
+  --surface: #353c52;
+  --surface-2: #414963;
+  --border: #5a6483;
+
+  --text: #f1ebdd;
+  --text-muted: #b4bbcc;
+
+  --gold: #e2b865;
+  --gold-soft: rgba(226, 184, 101, 0.18);
+
+  --stat-strength: #e8776e;
+  --stat-intellect: #6fa8e8;
+  --stat-health: #6dbf8b;
+  --stat-discipline: #a897e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
